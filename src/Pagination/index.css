@@ -1,0 +1,28 @@
+.pagination{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagination li{
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    min-width: 40px;
+    text-align: center;
+}
+.pagination li.disabled{
+    background-color: #eee;
+    pointer-events: none;
+    color: #c1c1c1;
+}
+.pagination li.active{
+    background-color: black;
+    color: #fff;
+}
+
+.pagination li span{ 
+    cursor: pointer;
+}
